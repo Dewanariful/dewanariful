@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: inline;
+    display: flex;
+    background-image:url("/photo/profile.jpg" );
+    background-color: rgb(13, 114, 114);
+    color: rgb(221, 174, 174);
+    border: 1px solid rgb(241, 112, 61);
+}
+.name span h1{
+    margin:1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sassy Frass', cursive;
+    font-family: 'Zeyada', cursive;
+    font-weight: bold;
+    font-size: 4vw;
+    color: rgb(82, 255, 4);
+}
+.pphoto img{
+    width: 6vw;
+    height: 7vw;
+    padding: 0.3vw;
+    margin: 0.2vw;
+    border: 1px solid black;
+}
+  .con1 img{
+    align-items: centr;
+    position: relative;
+    height: 3vw;
+    left: 9vw;
+    padding: 2.5vw
+  }
+  .con2 img{
+    align-items: centr;
+    position: relative;
+    height: 3vw;
+    left: 6vw;
+    padding: 2.5vw
+  }
+  .con3 img{
+    align-items: centr;
+    position: relative;
+    height: 3vw;
+    left: 3vw;
+    padding: 2.5vw
+  }
+  .intro{
+    
+    height:fit-content;
+    background-image: url(/photo/background.jpg);
+    text-align: center;
+    border: 1px solid rgb(138, 230, 76);
+  }
+.intro p{
+    font-style:oblique;
+    font-weight: bold;
+    font-size:4vw;
+    color: rgb(170, 31, 70);
+}
+.self{
+    font-style: italic;
+    font-weight: bold;
+    color:  rgb(110, 26, 211);
+    font-size: 1.8vw;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f7f2f1;
+    
+}
+.pro img {
+    height: 24vw;
+    width: 19vw;
+    border: 2px solid black;
+    margin: 1vw;
+}
+.water img{
+    height: 24vw;
+    width: 19vw;
+    border: 2px solid black;
+    margin: 1vw;
+}
+.fam img{
+    height: 24vw;
+    width: 19vw;
+    border: 2px solid black;
+    margin: 1vw;
+}
+.sik img{
+    height: 24vw;
+    width: 19vw;
+    border: 2px solid black;
+    margin: 1vw;
+}
+.aca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #def2e4;
+}
+.education{
+    text-align: center;
+    background-image: url(/photo/educationback.jpg);
+    border: 2px solid black;
+    height: 32vw;
+    width: 36vw;
+    margin: 3vw;
+  }
+  .edu{
+    position: relative;
+    font-size: 3vw;
+    font-style: italic;
+    color: #0010ff;
+    height: fit-content;
+  }
+  .educa{
+    height: fit-content;
+    font-size: 1.2vw;
+  }
+.skill{
+    text-align: center;
+    background-image: url(/photo/educationback.jpg);
+    border: 2px solid black;
+    height: 32vw;
+    width: 36vw;
+    margin: 3vw;
+}
+.sk{
+    font-size: 3vw;
+    font-style: italic;
+    color: #0010ff;
+    height: fit-content;
+}
+.ski{
+    height: fit-content;
+    font-size: 1.2vw;
+}
+.lan{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#d9d9d9;
+}
+.lanin{
+    height: fit-content;
+    background-image: url(/photo/lanbac.jpg);
+    width: 43vw;
+    border: 1px solid black;
+}
+.lang{
+    font-style: italic;
+    font-size: 3vw;
+    color: red;
+}
+.langu{
+    height: fit-content;
+    font-size: 1.2vw;
+}
+footer{
+    background-color: rgb(158, 89, 223);
+    color: white;
+    font-style: italic;
+    font-style: bold;
+    text-align: center;
+}
